@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" charset="utf-8">
+  (function (g, e, n, es, ys) {
+    g['_genesysJs'] = e;
+    g[e] = g[e] || function () {
+      (g[e].q = g[e].q || []).push(arguments)
+    };
+    g[e].t = 1 * new Date();
+    g[e].c = es;
+    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+  })(window, 'Genesys', 'https://apps.mypurecloud.com/genesys-bootstrap/genesys.min.js', {
+    environment: 'use1',
+    deploymentId: '5813102f-ade8-4f57-a3d6-8204ae3693bc',
+    debug: true 
+  });
+</script>
+<script type="text/javascript" charset="utf-8">
+  Genesys("subscribe", "Launcher.ready" , function(o){
+    console.log("The queue works!");
+  });
+  Genesys("command", "Messenger.open", {},
+      function(o){
+		console.log("Opened");
+	  },  // if resolved
+      function(o){    // if rejected
+        Genesys("command", "Messenger.close");
+      }
+    );
+</script>
+</head>
+
+
+<body>
+
+<h1>Genesys Chat</h1>
+<p>Let's Chat!</p>
+
+</body>
+</html>

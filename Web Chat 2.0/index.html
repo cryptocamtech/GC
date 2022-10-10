@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="tata.css">
+</head>
+<script>
+function load() {
+	CXBus.configure({debug:false,pluginsPath:'https://apps.mypurecloud.com/widgets/9.0/plugins/'}); 
+	CXBus.loadFile('widgets.config.js').done(function(){
+		CXBus.loadPlugin('widgets-core');
+		
+		const customPlugin = CXBus.registerPlugin('Custom');
+
+		customPlugin.subscribe('WebChat.opened', function () {
+		  console.log('Chat opened');
+		  document.getElementsByClassName("cx-title")[0].innerText = 'How can we help you?';
+		  document.getElementsByClassName("cx-webchat")[0].style.width = "400px";
+		  document.getElementsByClassName("cx-powered-by")[0].style.width = "400px";
+		  
+		});
+		
+		customPlugin.subscribe('WebChat.cancelled', function () {
+		  console.log('Chat cancelled');
+		  
+		});
+		
+		customPlugin.subscribe('WebChat.closed', function () {
+		  console.log('Chat closed');
+		  
+		});
+
+		customPlugin.subscribe('WebChatService.started', function (e) {
+		  console.log('Chat started', e);
+		  
+		  customPlugin.command('WebChatService.updateUserData', {"addressStreet": 'This is rubbish'}).done(function(e){
+console.log('Chat UPDATED', e);
+			}).fail(function(e){
+				console.error("no go", e);
+			});
+		});
+
+		customPlugin.subscribe('WebChatService.ended', function (e) {
+		  console.log('Chat ended', e);
+		  customPlugin.command('WebChatService.updateUserData', {"addressStreet": 'This is rubbish'}).done(function(e){
+console.log('Chat UPDATED', e);
+			}).fail(function(e){
+
+				console.error("no go", e);
+			});
+
+		});
+	});
+}
+</script>
+<script 
+	src="https://apps.mypurecloud.com/widgets/9.0/cxbus.min.js" 
+	onload="javascript:load();">
+</script>
+<body>
+
+<h1>Genesys Chat</h1>
+<p>Let's Chat!</p>
+
+</body>
+</html>
