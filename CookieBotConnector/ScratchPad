@@ -1,0 +1,38 @@
+Integration ID: b4f82130-eed4-43d2-b807-b6c0ddc59f0d
+
+
+{
+  "chatBots": [
+    {
+      "id": "X123",
+      "name": "CookieOrderBot",
+      "versions": [
+        {
+          "version": "1.0",
+          "supportedLanguages": [
+            "en-us"
+          ],
+          "intents": [
+            {
+              "name": "OrderCookie",
+              "slots": {
+                "CookieType": {
+                  "name": "CookieType",
+                  "type": "string"
+                },
+                "NumOfCookies": {
+                  "name": "NumOfCookies",
+                  "type": "integer"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "botCompositeTag": "8d381b33-5fee-4a2f-9eb6-a55b376069dc:A113",
+      "selfUri": "/api/v2/integrations/botconnector/8d381b33-5fee-4a2f-9eb6-a55b376069dc/bots/A113"
+    }
+  ]
+}
+
+

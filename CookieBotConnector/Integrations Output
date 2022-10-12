@@ -1,0 +1,1006 @@
+{
+  "entities": [
+    {
+      "id": "07f0e83a-57b7-468d-83a4-4de902e5e9a5",
+      "name": "Prince PureCloud Data Actions",
+      "integrationType": {
+        "id": "purecloud-data-actions",
+        "selfUri": "/api/v2/integrations/types/purecloud-data-actions"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/07f0e83a-57b7-468d-83a4-4de902e5e9a5/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2019-07-26T09:17:04.890Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/07f0e83a-57b7-468d-83a4-4de902e5e9a5"
+    },
+    {
+      "id": "137fafa2-2b54-4c6c-abfa-be00ff64867d",
+      "name": "Amazon Lex",
+      "integrationType": {
+        "id": "amazon-lex",
+        "selfUri": "/api/v2/integrations/types/amazon-lex"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/137fafa2-2b54-4c6c-abfa-be00ff64867d/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2019-09-18T16:30:45.395Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/137fafa2-2b54-4c6c-abfa-be00ff64867d"
+    },
+    {
+      "id": "13eee387-2123-4b75-bbf6-47845a03d7b2",
+      "name": "PureCloud Data Actions",
+      "integrationType": {
+        "id": "purecloud-data-actions",
+        "selfUri": "/api/v2/integrations/types/purecloud-data-actions"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/13eee387-2123-4b75-bbf6-47845a03d7b2/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2018-12-11T23:28:31.287Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/13eee387-2123-4b75-bbf6-47845a03d7b2"
+    },
+    {
+      "id": "15bdd52b-4779-49cd-aab8-f4601e05bf7b",
+      "name": "AWS S3 Recording Bulk Actions Integration",
+      "integrationType": {
+        "id": "aws-s3-recording-bulk-actions-integration",
+        "selfUri": "/api/v2/integrations/types/aws-s3-recording-bulk-actions-integration"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/15bdd52b-4779-49cd-aab8-f4601e05bf7b/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "STATE_CHANGE_ACTIVATE",
+          "message": "Integration is now ACTIVE",
+          "messageParams": {}
+        },
+        "lastUpdated": "2020-02-07T03:48:58.422Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/15bdd52b-4779-49cd-aab8-f4601e05bf7b"
+    },
+    {
+      "id": "18d53abc-7b00-4671-a4cd-eada8e5a597a",
+      "name": "Prince Web Services Data Actions",
+      "integrationType": {
+        "id": "custom-rest-actions",
+        "selfUri": "/api/v2/integrations/types/custom-rest-actions"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/18d53abc-7b00-4671-a4cd-eada8e5a597a/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2020-03-06T12:27:19.816Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/18d53abc-7b00-4671-a4cd-eada8e5a597a"
+    },
+    {
+      "id": "1993793f-437f-480d-b181-18820bb0ba25",
+      "name": "PREMIUM_EXAMPLE_Partner Enablement Tools",
+      "integrationType": {
+        "id": "premium-app-example",
+        "selfUri": "/api/v2/integrations/types/premium-app-example"
+      },
+      "notes": "Provisioned by premium-app-example integration",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/1993793f-437f-480d-b181-18820bb0ba25/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-08-18T14:47:11.266Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/1993793f-437f-480d-b181-18820bb0ba25"
+    },
+    {
+      "id": "1b67d23d-36ab-4191-b8d2-7d6a6f00c3fa",
+      "name": "Prince Salesforce Data Actions",
+      "integrationType": {
+        "id": "salesforce-datadip",
+        "selfUri": "/api/v2/integrations/types/salesforce-datadip"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/1b67d23d-36ab-4191-b8d2-7d6a6f00c3fa/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2020-09-16T02:09:40.006Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/1b67d23d-36ab-4191-b8d2-7d6a6f00c3fa"
+    },
+    {
+      "id": "21671fd7-1428-401e-90c4-c3988b101284",
+      "name": "Client Application",
+      "integrationType": {
+        "id": "embedded-client-app",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app"
+      },
+      "notes": "",
+      "intendedState": "DISABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/21671fd7-1428-401e-90c4-c3988b101284/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "INACTIVE",
+        "effective": "Inactive",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-07-26T05:29:21.506Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/21671fd7-1428-401e-90c4-c3988b101284"
+    },
+    {
+      "id": "2d02bf8c-892a-426e-9700-e81bf98326dd",
+      "name": "Prashant's Wiki Widget",
+      "integrationType": {
+        "id": "embedded-client-app",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/2d02bf8c-892a-426e-9700-e81bf98326dd/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "lastUpdated": "2020-12-14T18:59:56.183Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/2d02bf8c-892a-426e-9700-e81bf98326dd"
+    },
+    {
+      "id": "2fb9814a-41dd-456e-95db-9c41b33890b3",
+      "name": "Send Agentless SMS Noti\u0000cation",
+      "integrationType": {
+        "id": "purecloud-data-actions",
+        "selfUri": "/api/v2/integrations/types/purecloud-data-actions"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/2fb9814a-41dd-456e-95db-9c41b33890b3/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-08-24T15:43:43.144Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/2fb9814a-41dd-456e-95db-9c41b33890b3"
+    },
+    {
+      "id": "30e3e295-b4ca-499d-9584-a8d5d6de3d6d",
+      "name": "ComprehendDataAction",
+      "integrationType": {
+        "id": "custom-rest-actions",
+        "selfUri": "/api/v2/integrations/types/custom-rest-actions"
+      },
+      "notes": "Used to invoke an AWS Comprehend job",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/30e3e295-b4ca-499d-9584-a8d5d6de3d6d/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-07-13T13:44:27.768Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/30e3e295-b4ca-499d-9584-a8d5d6de3d6d"
+    },
+    {
+      "id": "31960fe3-5740-40a5-b47e-35d36a856872",
+      "name": "Analytics Detailed Record Metrics App",
+      "integrationType": {
+        "id": "embedded-client-app",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/31960fe3-5740-40a5-b47e-35d36a856872/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-07-28T08:57:05.865Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/31960fe3-5740-40a5-b47e-35d36a856872"
+    },
+    {
+      "id": "39115026-3585-429d-b573-ef99ca8ae5e7",
+      "name": "Genesys Cloud Voice Transcription",
+      "integrationType": {
+        "id": "wem-sta",
+        "selfUri": "/api/v2/integrations/types/wem-sta"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/39115026-3585-429d-b573-ef99ca8ae5e7/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-02-04T15:45:32.026Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/39115026-3585-429d-b573-ef99ca8ae5e7"
+    },
+    {
+      "id": "4bf34a13-473f-4a25-aa79-97b59ff4b2a0",
+      "name": "AWS Lambda Data Actions",
+      "integrationType": {
+        "id": "aws-lambda-data-actions",
+        "selfUri": "/api/v2/integrations/types/aws-lambda-data-actions"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/4bf34a13-473f-4a25-aa79-97b59ff4b2a0/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-02-04T16:32:27.075Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/4bf34a13-473f-4a25-aa79-97b59ff4b2a0"
+    },
+    {
+      "id": "5a398d13-b81e-437b-96e6-344ba98712cc",
+      "name": "Premium Client Application Example (1)",
+      "integrationType": {
+        "id": "premium-app-example",
+        "selfUri": "/api/v2/integrations/types/premium-app-example"
+      },
+      "notes": "",
+      "intendedState": "DISABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/5a398d13-b81e-437b-96e6-344ba98712cc/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "INACTIVE",
+        "effective": "Inactive",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-08-26T17:36:30.306Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/5a398d13-b81e-437b-96e6-344ba98712cc"
+    },
+    {
+      "id": "5d5029eb-e08e-47fa-a12d-f57e51b74a89",
+      "name": "Jira Data Actions",
+      "integrationType": {
+        "id": "custom-rest-actions",
+        "selfUri": "/api/v2/integrations/types/custom-rest-actions"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/5d5029eb-e08e-47fa-a12d-f57e51b74a89/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-05-26T20:57:40.871Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/5d5029eb-e08e-47fa-a12d-f57e51b74a89"
+    },
+    {
+      "id": "6908d5de-5504-4cad-b7bc-e3006409ab6c",
+      "name": "Agent Assistant",
+      "integrationType": {
+        "id": "embedded-client-app-interaction-widget",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app-interaction-widget"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/6908d5de-5504-4cad-b7bc-e3006409ab6c/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "lastUpdated": "2020-12-03T02:31:34.060Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/6908d5de-5504-4cad-b7bc-e3006409ab6c"
+    },
+    {
+      "id": "6c6e7902-56d9-4348-8e9d-cc067b6d4a66",
+      "name": "JSM Interaction Widget",
+      "integrationType": {
+        "id": "embedded-client-app-interaction-widget-beta-program",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app-interaction-widget-beta-program"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/6c6e7902-56d9-4348-8e9d-cc067b6d4a66/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "lastUpdated": "2020-08-26T09:15:29.575Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/6c6e7902-56d9-4348-8e9d-cc067b6d4a66"
+    },
+    {
+      "id": "73a0ffcc-7f17-4d00-b849-0723150a0516",
+      "name": "Vonage Interaction Widget",
+      "integrationType": {
+        "id": "embedded-client-app-interaction-widget",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app-interaction-widget"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/73a0ffcc-7f17-4d00-b849-0723150a0516/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-02-18T03:41:08.088Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/73a0ffcc-7f17-4d00-b849-0723150a0516"
+    },
+    {
+      "id": "73d260b8-9bbd-4f6b-9769-85426fbe5287",
+      "name": "Premium Client Application Example",
+      "integrationType": {
+        "id": "premium-app-example",
+        "selfUri": "/api/v2/integrations/types/premium-app-example"
+      },
+      "notes": "{\"role\":{\"Role\":{\"id\":\"205a2b69-aa85-4bcd-94ac-6a83363ef3d8\",\"name\":\"PREMIUM_EXAMPLE_Role\"}},\"group\":{\"Supervisors\":{\"id\":\"558cd340-4c43-49d0-b9f9-3169982a2be2\",\"name\":\"PREMIUM_EXAMPLE_Supervisors\"}},\"app-instance\":{\"Partner Enablement Tools\":{\"id\":\"1993793f-437f-480d-b181-18820bb0ba25\",\"name\":\"Premium Client Application Example (1)\"}},\"oauth-client\":{\"OAuth Client\":{\"id\":\"c9560227-7f9e-42cd-a625-60d54bd21c7d\",\"name\":\"PREMIUM_EXAMPLE_OAuth Client\"}}}",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/73d260b8-9bbd-4f6b-9769-85426fbe5287/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "lastUpdated": "2020-05-28T03:49:49.923Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/73d260b8-9bbd-4f6b-9769-85426fbe5287"
+    },
+    {
+      "id": "7b501385-c3e5-458f-aeab-d5570ba5da9b",
+      "name": "Email Translator (LOCALHOST)",
+      "integrationType": {
+        "id": "embedded-client-app-interaction-widget",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app-interaction-widget"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/7b501385-c3e5-458f-aeab-d5570ba5da9b/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-02-18T07:23:02.990Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/7b501385-c3e5-458f-aeab-d5570ba5da9b"
+    },
+    {
+      "id": "8512806e-307f-4c57-9d9d-68d45341c47b",
+      "name": "Google Dialogflow",
+      "integrationType": {
+        "id": "google-dialogflow",
+        "selfUri": "/api/v2/integrations/types/google-dialogflow"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/8512806e-307f-4c57-9d9d-68d45341c47b/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-05-03T08:34:42.968Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/8512806e-307f-4c57-9d9d-68d45341c47b"
+    },
+    {
+      "id": "8d381b33-5fee-4a2f-9eb6-a55b376069dc",
+      "name": "DevCast Bot Connector",
+      "integrationType": {
+        "id": "genesys-byob",
+        "selfUri": "/api/v2/integrations/types/genesys-byob"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/8d381b33-5fee-4a2f-9eb6-a55b376069dc/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-05-19T20:40:16.575Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/8d381b33-5fee-4a2f-9eb6-a55b376069dc"
+    },
+    {
+      "id": "8d444898-4abc-455a-861c-f404ec1a1d7d",
+      "name": "Client Application (2)",
+      "integrationType": {
+        "id": "embedded-client-app",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app"
+      },
+      "notes": "",
+      "intendedState": "DISABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/8d444898-4abc-455a-861c-f404ec1a1d7d/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "INACTIVE",
+        "effective": "Inactive",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-07-29T01:27:23.873Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/8d444898-4abc-455a-861c-f404ec1a1d7d"
+    },
+    {
+      "id": "90cde162-37c3-464f-a524-baf4b9975adf",
+      "name": "Prashant's Interaction Widget",
+      "integrationType": {
+        "id": "embedded-client-app-interaction-widget",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app-interaction-widget"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/90cde162-37c3-464f-a524-baf4b9975adf/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-07-20T20:06:57.845Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/90cde162-37c3-464f-a524-baf4b9975adf"
+    },
+    {
+      "id": "aea8e7b8-19d8-47e0-97c8-cbccd701e1fb",
+      "name": "Agent Assistant (LOCALHOST)",
+      "integrationType": {
+        "id": "embedded-client-app-interaction-widget",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app-interaction-widget"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/aea8e7b8-19d8-47e0-97c8-cbccd701e1fb/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-04-12T06:34:23.564Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/aea8e7b8-19d8-47e0-97c8-cbccd701e1fb"
+    },
+    {
+      "id": "b14b46b2-961d-4994-9984-8f7a68a22089",
+      "name": "Acapela Voice as a Service (VaaS)",
+      "integrationType": {
+        "id": "acapela-vaas",
+        "selfUri": "/api/v2/integrations/types/acapela-vaas"
+      },
+      "notes": "",
+      "intendedState": "DISABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/b14b46b2-961d-4994-9984-8f7a68a22089/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "INACTIVE",
+        "effective": "Inactive",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'INACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-05-27T21:45:29.120Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/b14b46b2-961d-4994-9984-8f7a68a22089"
+    },
+    {
+      "id": "cbd32f50-3217-46e4-891b-9134e8341d56",
+      "name": "Guests Chat Simulator",
+      "integrationType": {
+        "id": "embedded-client-app",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app"
+      },
+      "notes": "For testing multiple chat interactions at once.\nSummon multiple guests simultaneously. \nGuests sends messages at random intervals to keep interaction active.",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/cbd32f50-3217-46e4-891b-9134e8341d56/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "lastUpdated": "2020-09-01T06:13:34.365Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/cbd32f50-3217-46e4-891b-9134e8341d56"
+    },
+    {
+      "id": "ce9b350c-1eb2-4a1e-a3a2-796416c8ee3b",
+      "name": "AppFoundry - Partner Enablement Tools",
+      "integrationType": {
+        "id": "premium-app-example",
+        "selfUri": "/api/v2/integrations/types/premium-app-example"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/ce9b350c-1eb2-4a1e-a3a2-796416c8ee3b/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "lastUpdated": "2020-05-20T05:12:04.514Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/ce9b350c-1eb2-4a1e-a3a2-796416c8ee3b"
+    },
+    {
+      "id": "cede5f06-d002-47f9-8520-c3b9e00e8805",
+      "name": "Client Application (1)",
+      "integrationType": {
+        "id": "embedded-client-app",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app"
+      },
+      "notes": "",
+      "intendedState": "DISABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/cede5f06-d002-47f9-8520-c3b9e00e8805/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "INACTIVE",
+        "effective": "Inactive",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-07-28T09:33:09.785Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/cede5f06-d002-47f9-8520-c3b9e00e8805"
+    },
+    {
+      "id": "d0b3c15d-7136-40b8-971d-be32123ae208",
+      "name": "Crespino Interaction Widget",
+      "integrationType": {
+        "id": "embedded-client-app-interaction-widget",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app-interaction-widget"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/d0b3c15d-7136-40b8-971d-be32123ae208/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-08-18T16:48:11.676Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/d0b3c15d-7136-40b8-971d-be32123ae208"
+    },
+    {
+      "id": "e6fdfaff-ba2f-4a3f-b766-a0c11c8ef8ea",
+      "name": "Web Services Data Actions",
+      "integrationType": {
+        "id": "custom-rest-actions",
+        "selfUri": "/api/v2/integrations/types/custom-rest-actions"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/e6fdfaff-ba2f-4a3f-b766-a0c11c8ef8ea/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration of type 'custom-rest-actions' is now ACTIVE. Integration: e6fdfaff-ba2f-4a3f-b766-a0c11c8ef8ea",
+          "messageParams": {}
+        },
+        "lastUpdated": "2017-07-17T22:26:04.803Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/e6fdfaff-ba2f-4a3f-b766-a0c11c8ef8ea"
+    },
+    {
+      "id": "e93b717c-99fe-412b-8e6d-705d8411b580",
+      "name": "Prince Tester",
+      "integrationType": {
+        "id": "embedded-client-app",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/e93b717c-99fe-412b-8e6d-705d8411b580/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "lastUpdated": "2020-11-11T04:47:44.777Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/e93b717c-99fe-412b-8e6d-705d8411b580"
+    },
+    {
+      "id": "eb2e1b6b-4f1f-467c-b41c-7ed8ea5ae5ef",
+      "name": "Chat Translator",
+      "integrationType": {
+        "id": "embedded-client-app-interaction-widget",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app-interaction-widget"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/eb2e1b6b-4f1f-467c-b41c-7ed8ea5ae5ef/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-02-18T19:58:05.997Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/eb2e1b6b-4f1f-467c-b41c-7ed8ea5ae5ef"
+    },
+    {
+      "id": "ebf3dbb5-86cd-4ca5-bf6e-eb5005261a15",
+      "name": "Agnes Genesys Cloud Data Actions",
+      "integrationType": {
+        "id": "purecloud-data-actions",
+        "selfUri": "/api/v2/integrations/types/purecloud-data-actions"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/ebf3dbb5-86cd-4ca5-bf6e-eb5005261a15/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2021-01-29T02:27:54.432Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/ebf3dbb5-86cd-4ca5-bf6e-eb5005261a15"
+    },
+    {
+      "id": "ee6a2893-65d7-4a6a-9989-b221f0fa2dfc",
+      "name": "Cherry Picker",
+      "integrationType": {
+        "id": "embedded-client-app",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/ee6a2893-65d7-4a6a-9989-b221f0fa2dfc/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "lastUpdated": "2019-11-20T07:03:14.484Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/ee6a2893-65d7-4a6a-9989-b221f0fa2dfc"
+    },
+    {
+      "id": "f54bcb41-7499-4268-8e7b-b0eb3993c6b8",
+      "name": "Prince http://localhost:8080/index.html",
+      "integrationType": {
+        "id": "embedded-client-app",
+        "selfUri": "/api/v2/integrations/types/embedded-client-app"
+      },
+      "notes": "QUERY PARAMS:\nenvironment\nlanguage",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/f54bcb41-7499-4268-8e7b-b0eb3993c6b8/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "lastUpdated": "2020-03-18T13:30:45.046Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/f54bcb41-7499-4268-8e7b-b0eb3993c6b8"
+    },
+    {
+      "id": "fd495672-a1f4-4787-81d0-a7e9910b293f",
+      "name": "Barrera PureCloud Data Actions",
+      "integrationType": {
+        "id": "purecloud-data-actions",
+        "selfUri": "/api/v2/integrations/types/purecloud-data-actions"
+      },
+      "notes": "",
+      "intendedState": "ENABLED",
+      "config": {
+        "current": {
+          "id": "current",
+          "selfUri": "/api/v2/integrations/fd495672-a1f4-4787-81d0-a7e9910b293f/config/current"
+        }
+      },
+      "reportedState": {
+        "code": "ACTIVE",
+        "effective": "Active",
+        "detail": {
+          "localizableMessageCode": "REPORTED_STATE_CHANGE",
+          "message": "Integration is now in 'ACTIVE' state.",
+          "messageParams": {}
+        },
+        "lastUpdated": "2019-08-09T07:23:20.698Z"
+      },
+      "attributes": {},
+      "selfUri": "/api/v2/integrations/fd495672-a1f4-4787-81d0-a7e9910b293f"
+    }
+  ],
+  "pageSize": 50,
+  "pageNumber": 1,
+  "total": 38,
+  "firstUri": "/api/v2/integrations?pageSize=50&pageNumber=1",
+  "selfUri": "/api/v2/integrations?pageSize=50&pageNumber=1",
+  "lastUri": "/api/v2/integrations?pageSize=50&pageNumber=1",
+  "pageCount": 1
+}
